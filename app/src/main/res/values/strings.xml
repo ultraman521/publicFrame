@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PublicFrame</string>
-    <string name="connect_error">Network connection failed. Check your network.</string>
-    <string name="connect_timeout">Connection timed out. Please try again.</string>
-    <string name="bad_network">The server returned an error.</string>
-    <string name="parse_error">Could not parse the server response.</string>
-    <string name="unknown_error">Unknown error.</string>
-    <string name="response_return_error">The server returned an invalid response.</string>
+    <string name="app_name">PublicFrame Demo</string>
+    <string name="main_title">PublicFrame Kotlin 脚手架</string>
+    <string name="main_btn_mock">模拟加载</string>
+    <string name="main_btn_remote">真实请求</string>
+    <string name="main_result_empty">没有数据</string>
+    <string name="main_result_format">共 %1$d 条，首条：%2$s</string>
+    <string name="main_banner_desc">示例图片</string>
 </resources>
