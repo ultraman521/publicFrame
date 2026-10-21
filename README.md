@@ -1,37 +1,24 @@
-# guagua
+# PublicFrame
 
-#### 介绍
-news
+PublicFrame 是一个可复用的 Android 基础框架示例，使用 Kotlin 作为应用层语言，并保留旧版 Java MVVMHabit 兼容模块。
 
-#### 软件架构
-软件架构说明
+## 模块
 
+- `framework`：Kotlin 公共框架模块，提供初始化配置和统一 `UiState`。
+- `mvvmhabit`：原有 MVVM、网络、缓存和工具实现，作为兼容层逐步迁移。
+- `app`：Kotlin 示例应用，只承载示例入口和业务代码。
 
-#### 安装教程
+## 快速开始
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 使用 Android Studio 打开项目根目录。
+2. 配置 Android SDK，并创建本机专用的 `local.properties`。
+3. 在应用启动时调用 `PublicFrame.initialize(application, configuration)`。
+4. 通过 `FrameworkConfiguration.apiBaseUrl` 注入以 `/` 结尾的 HTTP(S) API 地址。
 
-#### 使用说明
+## Kotlin 迁移策略
 
-1. xxxx
-2. xxxx
-3. xxxx
+应用入口、Application、示例 ViewModel 和 URL 配置已经迁移到 Kotlin。`mvvmhabit` 中的旧 Java 实现暂时保留，以保证已有调用方可以逐步迁移；后续可按包逐批转换。
 
-#### 参与贡献
+## 许可证
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+项目源码采用 MIT License。第三方代码和依赖请参阅 `THIRD_PARTY_NOTICES.md`。

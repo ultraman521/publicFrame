@@ -1,36 +1,19 @@
-# guagua
+# PublicFrame
 
-#### Description
-news
+PublicFrame is a reusable Android foundation with a Kotlin application layer and a Java compatibility module for the original MVVMHabit implementation.
 
-#### Software Architecture
-Software architecture description
+## Modules
 
-#### Installation
+- `framework`: Kotlin public framework module with initialization configuration and a shared `UiState` model.
+- `mvvmhabit`: legacy MVVM, networking, cache, and utility implementation kept as a compatibility layer.
+- `app`: Kotlin sample application and business-facing code.
 
-1. xxxx
-2. xxxx
-3. xxxx
+## Getting started
 
-#### Instructions
+Open the project in Android Studio, configure the Android SDK, and provide a machine-local `local.properties`. Initialize the framework with `PublicFrame.initialize(application, configuration)` and inject an HTTP(S) API base URL ending with `/` when networking is needed.
 
-1. xxxx
-2. xxxx
-3. xxxx
+The application entry points, sample ViewModel, and URL configuration have been migrated to Kotlin. The legacy Java implementation remains temporarily so existing callers can migrate incrementally.
 
-#### Contribution
+## License
 
-1. Fork the repository
-2. Create Feat_xxx branch
-3. Commit your code
-4. Create Pull Request
-
-
-#### Gitee Feature
-
-1. You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2. Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3. Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4. The most valuable open source project [GVP](https://gitee.com/gvp)
-5. The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6. The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+The project source is released under the MIT License. See `THIRD_PARTY_NOTICES.md` for third-party code and dependency notices.

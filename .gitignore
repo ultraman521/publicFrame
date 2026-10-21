@@ -13,3 +13,6 @@ local.properties
 
 # Local tooling
 captures/
+
+# Local upload/archive bundles
+*.zip
