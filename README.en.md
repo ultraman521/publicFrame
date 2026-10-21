@@ -1,5 +1,12 @@
 # PublicFrame
 
+[![CI](https://github.com/ultraman521/publicFrame/actions/workflows/ci.yml/badge.svg)](https://github.com/ultraman521/publicFrame/actions/workflows/ci.yml)
+![Kotlin](https://img.shields.io/badge/Kotlin-AGP%209%20built--in-7F52FF)
+![Platform](https://img.shields.io/badge/platform-Android-3DDC84)
+![API](https://img.shields.io/badge/minSdk-23%2B-green)
+![Gradle](https://img.shields.io/badge/Gradle-9.8-02303A)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 A reusable **Kotlin Android scaffold**: a two-module setup (framework library +
 demo app) built on AGP 9 built-in Kotlin, coroutines, and ViewBinding.
 

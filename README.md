@@ -1,5 +1,17 @@
 # PublicFrame
 
+[![CI](https://github.com/ultraman521/publicFrame/actions/workflows/ci.yml/badge.svg)](https://github.com/ultraman521/publicFrame/actions/workflows/ci.yml)
+![Kotlin](https://img.shields.io/badge/Kotlin-AGP%209%20built--in-7F52FF)
+![Platform](https://img.shields.io/badge/platform-Android-3DDC84)
+![API](https://img.shields.io/badge/minSdk-23%2B-green)
+![Gradle](https://img.shields.io/badge/Gradle-9.8-02303A)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+> A modern, build-verified Android scaffold (Kotlin + AGP 9 built-in Kotlin +
+> coroutines/Flow + Retrofit suspend), structured as a reusable framework
+> library plus a demo app. A clean migration target for legacy
+> MVVMHabit-style codebases.
+
 可复用的 **Kotlin Android 公共脚手架**：双模块结构（框架库 + 示例应用），
 基于 AGP 9 内建 Kotlin、协程与 ViewBinding，开箱即用。
 
